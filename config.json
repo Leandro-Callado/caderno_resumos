@@ -1,0 +1,28 @@
+{
+  "evento": {
+    "nome": "70º Seminário do GEL",
+    "local": "Campinas, SP",
+    "data": "16–19 de julho de 2024",
+    "organizadores": "Lívia Oushiro e Julia Bahia Adams",
+    "instituicao": "Grupo de Estudos Linguísticos do Estado de São Paulo"
+  },
+  "layout": {
+    "page_size": "A4",
+    "margins": {
+      "top": 36,
+      "bottom": 36,
+      "left": 36,
+      "right": 36
+    },
+    "font": {
+      "base": "Times-Roman",
+      "bold": "Times-Bold",
+      "italic": "Times-Italic"
+    },
+    "titulo_caderno": "Caderno de Resumos"
+  },
+  "parser": {
+    "max_title_lines": 3,
+    "author_line_max_length": 200
+  }
+}
