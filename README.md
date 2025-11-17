@@ -62,7 +62,7 @@ Coloque todos os arquivos .pdf de resumos individuais dentro da pasta:
 Cada PDF deve conter o texto corrido do resumo.
 O script vai tentar identificar automaticamente o título, autores, eixo temático e o texto principal.
 
-2. Gere o caderno
+2. Gere o caderno <br>
 Rode o script principal:
 ```python
 python main.py
