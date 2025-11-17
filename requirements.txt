@@ -1,0 +1,4 @@
+pdfplumber==0.11.8
+python-docx==1.1.0
+Pillow==10.2.0        # caso queira inserir imagens ou capas automaticamente
+pypdf2==3.0.1         # caso futuramente queira mesclar PDFs
