@@ -13,20 +13,15 @@ O resultado final é um documento formatado no **estilo do "Caderno de Resumos d
 ## 📁 Estrutura do Projeto
 ```
 caderno_resumos/
-│
-├── main.py # Código principal
-├── config.json # Configurações de evento e layout
-│
-├── dados/
-│ └── resumos/ # Coloque aqui os PDFs de entrada
-│ ├── resumo1.pdf
-│ ├── resumo2.pdf
-│ └── ...
-│
-└── saida/
-└── caderno_final.pdf # PDF final gerado automaticamente
-```
+│── main.py
+│── template_caderno.docx   ← arquivo base do Word
+│── dados/
+│     └── resumos/
+│           ├── resumo1.pdf
+│           ├── resumo2.pdf
+│           └── ...
 
+```
 ---
 
 ## ⚙️ Instalação
@@ -50,7 +45,7 @@ source .venv/bin/activate
 3. Instale as dependências
 Copiar código
 pip install --upgrade pip
-pip install reportlab pdfplumber
+pip install -r requirements.txt
 ```
 📘 Como usar
 1. Adicione os resumos
@@ -60,7 +55,7 @@ Coloque todos os arquivos .pdf de resumos individuais dentro da pasta:
 `dados/resumos/`
 
 Cada PDF deve conter o texto corrido do resumo.
-O script vai tentar identificar automaticamente o título, autores, eixo temático e o texto principal.
+O script vai identificar os textos e adiciona-los no documento modelo.
 
 2. Gere o caderno <br>
 Rode o script principal:
